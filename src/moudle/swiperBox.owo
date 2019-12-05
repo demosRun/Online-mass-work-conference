@@ -1,0 +1,189 @@
+<template lang="pug">
+.swiper-box.clear
+  //- 用户填写
+  ul.left-bar
+    li
+      h1 更名仪式首批部委入驻
+      .image-list
+        .swiper-slide
+          h2 2019年度工作会议
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+        .swiper-slide
+          h2 2019年度工作会议
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+      h3 人民网“政点评”试点加盟仪式
+      p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
+    li 
+      h1 政点评现场连线：党政群机关、网友讲述
+      .image-list
+        .swiper-slide
+          h2 2019年度工作会议2
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+        .swiper-slide
+          h2 2019年度工作会议2
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+      h3 政点评现场连线：党政群机关、网友讲述
+      p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
+    li
+      h1 “办得好”网上群众工作案例征集启动仪式
+      .image-list
+        .swiper-slide
+          h2 2019年度工作会议3
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+        .swiper-slide
+          h2 2019年度工作会议3
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+      h3 “办得好”网上群众工作案例征集启动仪式
+      p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
+
+    li
+      h1 第二批成员加盟暨领导留言板“思政课”启动仪式
+      .image-list
+        .swiper-slide
+          h2 2019年度工作会议4
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+      h3 第二批成员加盟暨领导留言板“思政课”启动仪式
+      p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
+  
+  //- 程序自动生成
+  .right-bar.clear
+    .swiper-container-box
+      .swiper-container-box-pagination
+      .swiper-wrapper
+    .text-container
+      h3
+      p
+  ul.user-edit
+    li
+      h1 更名仪式首批部委入驻
+      .image-list
+        .swiper-slide
+          h2 2019年度工作会议
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+        .swiper-slide
+          h2 2019年度工作会议
+          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+      h3 人民网“政点评”试点加盟仪式
+      p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
+       
+</template>
+
+<style lang="less">
+.user-edit {
+  display: none;
+}
+.swiper-box {
+  width: 100%;
+  height: 320px;
+}
+.right-bar, .left-bar {
+  float: left;
+}
+.right-bar {
+  width: 800px;
+  overflow: hidden;
+  height: 100%;
+  padding-left: 15px;
+  .swiper-container-box {
+    float: left;
+    width: 480px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+    h2 {
+      position: absolute;
+      bottom: 0;
+      width: 94%;
+      padding: 0 3%;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 40px;
+      line-height: 40px;
+      color: white;
+    }
+    a, img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      position: relative;
+    }
+  }
+  .text-container {
+    float: left;
+  }
+}
+.left-bar {
+  width: 185px;
+  height: 100%;
+  h1 {
+    display: block;
+    font-size: initial;
+  }
+  .image-list, h3, p {
+    display: none;
+  }
+  li {
+    background-color: #2a56ad;
+    color: white;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    height: 60px;
+    line-height: 25px;
+    font-size: 15px;
+    padding: 0 5px;
+    cursor: pointer;
+    h1 {
+      height: 100%;
+      width: 100%;
+      line-height: 25px;
+      font-size: 14px;
+      align-items: center;
+      display: flex;
+      padding: 0 5px;
+      pointer-events: none;
+      user-select: none;
+    }
+  }
+  .active {
+    background-color: #e5e5e5;
+    color: #2a56ad;
+  }
+}
+.text-container {
+  width: 300px;
+  padding-left: 20px;
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-family: "Microsoft YaHei";
+  }
+  p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+  }
+}
+.swiper-container-box-pagination {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  display: block;
+  height: 12px;
+  line-height: 20px;
+  z-index: 99;
+  text-align: right;
+}
+.swiper-pagination-switch {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #939192;
+  margin: 0 4px;
+  border-radius: 7px;
+}
+.swiper-active-switch {
+  background-color: #243d99;
+}
+</style>

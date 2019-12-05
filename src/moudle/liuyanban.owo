@@ -1,0 +1,81 @@
+<template lang="pug">
+.liuyanban.clear
+  .item-1.liuyanban-item
+    h2
+      img(src="@|liuyanban.png|")
+    <p><a href="http://leaders.people.com.cn/n1/2019/0903/c178291-31334400.html" target="_blank">关于领导留言板</a>|<a href="http://www.people.com.cn" target="_blank">人民网</a>|<a href="http://leaders.people.com.cn/GB/178291/218130/414212/index.html" target="_blank">客户端下载</a>|<a href="http://leaders.people.com.cn/n1/2017/0103/c409148-28995855.html" target="_blank">关于删帖</a><br>热线：4008-100-300（不受理投诉、留言）<br>邮箱：leader@people.cn</p>
+  .item-2.liuyanban-item
+    h2 帮助中心
+    ul
+      li
+        a(href="#" target="_blank") 管理条例
+      li
+        a(href="#" target="_blank") 注册与登陆
+      li
+        a(href="#" target="_blank") 留言基础操作
+      li
+        a(href="#" target="_blank") 各地留言单位如何回复
+      li
+        a(href="#" target="_blank") 高级功能操作
+      li
+        a(href="#" target="_blank") 常见问题
+  .item-3.liuyanban-item
+    img(src="@|qr-1.png|")
+    img(src="@|qr-2.png|")
+</template>
+
+<style lang="less">
+.liuyanban {
+  padding: 40px 0;
+}
+.liuyanban-item {
+  float: left;
+}
+.item-1 {
+  float: left;
+  width: 300px;
+  h2 {
+    padding-bottom: 10px;
+    padding-top: 3px;
+  }
+  a {
+    margin: 0 2px;
+  }
+  a:first-child {
+    margin-left: 0;
+  }
+  p {
+    color: #666666;
+    line-height: 26px;
+    font-size: 12px;
+  }
+}
+.item-2 {
+  width: 250px;
+  padding-left: 107px;
+  h2 {
+    font-size: 16px;
+    line-height: 35px;
+    padding-bottom: 7px;
+  }
+  ul {
+    width: 100%;
+    color: #666666;
+    line-height: 26px;
+    font-size: 12px;
+    li {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+.item-3 {
+  padding-left: 130px;
+  img {
+    margin: 6px 12px;
+  }
+}
+h2 {
+  font-family: "Microsoft YaHei";
+}
+</style>

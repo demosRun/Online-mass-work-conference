@@ -1,0 +1,76 @@
+<template lang="pug">
+.metting-box
+  .time-1.time 12.12
+  .time-2.time 12.13
+  .time-line.clear
+    .time-line-bar
+      strong 09：10-09：35
+      p 指导单位、主办方领导致辞
+      strong 09：35-09：50
+      p [领导留言板]开启新征程 打造新平台
+      strong 09：50-10：05
+      p [案例征集]网聚“政”能量 共筑同心圆<br>——各地走好网上群众路线典型案例征集展示活动启动
+      strong 10：05-10：15
+      p [全国网上群众工作联盟]<br>网上群众工作案例走进大学“思政课”
+      strong 10：15-10：25
+      p [政点评]创新留言办理模式<br>提升网上群众工作水平
+    .time-line-bar
+      strong 10：40-10：55
+      p [高峰智库]主题演讲：孙柏瑛   中国人民大学公共管理学院  党委副书记、纪委书记
+      strong 10：55-11：10
+      p [高峰智库]主题演讲：刘晓哲   山西大学马克思主义学院院长
+      strong 11：10-11：25
+      p [高峰智库]主题演讲：祝华新   人民网舆论与公共政策研究中心主任
+      strong 14：30-16：00
+      p 第一场圆桌论坛<br>主  题：如何更好利用网上群众工作平台“为民服务解难题”？
+    .time-line-bar
+      strong 16：10-17：40
+      p 第二场圆桌论坛<br>主  题：网上群众工作如何提升群众 满意度？
+      strong 08：30-11：00
+      p 集体观摩
+</template>
+
+<style lang="less">
+.metting-box {
+  height: 400px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url("@|box-bg.png|");
+}
+.time {
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.time-1 {
+  left: 7px;
+  top: 18px;
+}
+.time-2 {
+  left: 655px;
+  top: 134px;
+}
+.time-line-bar {
+  float: left;
+}
+.time-line {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  width: 1061px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666666;
+  .time-line-bar {
+    float: left;
+    width: 250px;
+    margin-right: 67px;
+  }
+}
+strong {
+  color: #434343;
+  font-size: 14px;
+}
+</style>

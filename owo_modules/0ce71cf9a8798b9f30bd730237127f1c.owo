@@ -1,0 +1,12 @@
+<template>
+  <div class="image-bar"></div>
+</template>
+
+<style lang="less">
+.image-bar {
+  height: 100px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+</style>

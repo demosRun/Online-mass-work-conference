@@ -1,0 +1,105 @@
+<template lang="pug">
+.card-more
+  ul.clear
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+      p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+    li
+      a(href="#" target="_blank")
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg")
+        p 图片说明（两排文字）图片说明图片（两排文字）（两排文字）
+  .more 点击显示更多▽
+</template>
+
+<style lang="less">
+li {
+  width: 220px;
+  float: left;
+  margin: 2px 15px;
+  img {
+    width: 220px;
+    height: 156px;
+    display: block;
+  }
+  p {
+    color: #666666;
+    font-size: 14px;
+    padding: 5px 0;
+    height: 44px;
+    line-height: 22px;
+  }
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  height: 430px;
+  overflow: hidden;
+}
+.more {
+  color: #666666;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.show-more {
+  height: auto;
+}
+</style>

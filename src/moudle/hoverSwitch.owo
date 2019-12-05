@@ -1,0 +1,52 @@
+<template lang="pug">
+.hover-switch
+  .left
+  ul
+    li(o-hover="grow")
+      p 周晔：把《地方领导留言板》延伸到为民解忧的动力所在地
+      .image-box
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051528557919099670289.jpg" width="610" height="372" alt="中国人民大学公共管理学院党委副书记、纪委书记孙柏瑛")
+    li(o-hover="grow")
+      p 周晔：把《地方领导留言板》延伸到为民解忧的动力所在地
+      .image-box
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051007149596953657814.jpg" width="610" height="372" alt="中国人民大学公共管理学院党委副书记、纪委书记孙柏瑛2")
+    li(o-hover="grow")
+      p 周晔：把《地方领导留言板》延伸到为民解忧的动力所在地
+      .image-box
+        img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051528557919099670289.jpg" width="610" height="372" alt="中国人民大学公共管理学院党委副书记、纪委书记孙柏瑛3")
+</template>
+
+<style lang="less">
+.hover-switch {
+  height: 380px;
+}
+.left {
+  width: 610px;
+  float: left;
+}
+ul {
+  float: left;
+  width: 330px;
+  margin-left: 60px;
+  li {
+    background-image: url("@|card.png|");
+    width: 293px;
+    height: 44px;
+    background-repeat: no-repeat;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 29px 10px;
+    margin-bottom: 33px;
+    cursor: pointer;
+    overflow: hidden;
+    p {
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+}
+.image-box {
+  display: none;
+}
+</style>

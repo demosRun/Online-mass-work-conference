@@ -10,7 +10,7 @@
         a(href="#") 2018人民网留言办理工作会议在南京召开
       h3
         a(href="#") 开创中国特色社会主义事业新局面的坚强领导集体——党的新一届中央领导机构实
-    //- 新闻列表
+    //- 图文列表
     ul.news-card-box.clear
       li.fl
         img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
@@ -48,6 +48,50 @@
           h2 人民日报副总编辑、人民网董事长王一彪
           p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
             a(href="#") [详细]
+    //- 新闻列表
+    ul.news-box.clear
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+      li
+        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
+    //- 标题栏
+    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+    plug(_name="swiperBox" _src="./src/moudle/swiperBox.owo")
+  .content-2
+    .w1000
+      plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      plug(_name="mettingBox" _src="./src/moudle/mettingBox.owo")
+  .content-3.w1000
+    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+    plug(_name="cardMore" _src="./src/moudle/cardMore.owo")
+    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+    plug(_name="hoverSwitch" _src="./src/moudle/hoverSwitch.owo")
+    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+    plug(_name="hoverSwitch2" _src="./src/moudle/hoverSwitch2.owo")
+    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+    plug(_name="3d-swiper" _src="https://owo.ink/public/932b83aad23cb24edb47ddc4c49b9bad.page")
+    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+    ul.logo-box
+      img(src="@|logo-box.png|")
+  .content-2
+    .w1000
+      plug(_name="liuyanban" _src="./src/moudle/liuyanban.owo")
 </template>
 
 <script>
@@ -120,6 +164,37 @@
     a {
       color: #d42d26;
     }
+  }
+}
+.news-box {
+  margin-top: 20px;
+  li {
+    float: left;
+    background-image: url("@|li-icon.png|");
+    background-repeat: no-repeat;
+    width: 47%;
+    padding-left: 3%;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    background-position: center left;
+  }
+}
+.image-bar {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-image: url(@|title-zdtj.png|);
+}
+.content-2 {
+  background-color: #f8f9fe;
+}
+
+.logo-box {
+  margin: 20px 0;
+  img {
+    display: block;
+    margin: 0 auto;
   }
 }
 </style>
