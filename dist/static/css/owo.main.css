@@ -571,15 +571,22 @@ li {
 }
 .swiper {
   position: relative;
-  width: 1000px;
+  width: 1200px;
   overflow: hidden;
   margin: 0 auto;
-  height: 270px;
+  height: 470px;
+  margin: 0 -100px;
 }
 
-.swiper .roundabout-holder {
+.swiper .roundabout-box {
   height: 100%;
+  width: 600px;
   margin: 0 auto;
+}
+
+.swiper .roundabout-moveable-item {
+  width: 800px;
+  cursor: pointer;
 }
 
 .swiper .roundabout-moveable-item {

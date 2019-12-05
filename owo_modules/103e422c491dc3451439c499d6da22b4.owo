@@ -1,6 +1,6 @@
 <template>
   <div class="swiper">
-    <ul> 
+    <ul class="roundabout-box"> 
       <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="486" height="567" /></a><em>介绍的内容</em></li>
       <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="486" height="567" /></a><em></em></li>
       <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="486" height="567" /></a><em>介绍的内容</em></li>
@@ -19,7 +19,9 @@ module.exports = {
       easing: 'easeOutInCirc',
       duration: 600,
       btnNext: ".next",
-      btnPrev: ".prev"
+      btnPrev: ".prev",
+      minZ: 20,
+      minScale: 0.6
     })
   }
 }
@@ -28,15 +30,22 @@ module.exports = {
 <style lang="less">
 .swiper {
   position: relative;
-  width: 1000px;
+  width: 1200px;
   overflow: hidden;
   margin: 0 auto;
-  height: 270px;
+  height: 470px;
+  margin: 0 -100px;
 }
 
-.roundabout-holder {
+.roundabout-box {
   height: 100%;
   margin:0 auto;
+  width: 600px;
+  margin: 0 auto;
+}
+.roundabout-moveable-item {
+  width: 800px;
+  cursor: pointer;
 }
 .roundabout-moveable-item {
   height: 100%;
