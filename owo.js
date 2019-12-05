@@ -86,6 +86,10 @@ module.exports = {
       name: "idangerous.swiper2.7.0",
       src: "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"
     },
+    {
+      name: "v",
+      src: "./src/resource/v.js"
+    },
     // {
     //   name: "idangerous.swiper.3dflow",
     //   src: "./src/resource/idangerous.swiper.3dflow.js"

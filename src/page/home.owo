@@ -1,5 +1,53 @@
 <template lang="pug">
 .home
+  plug(_name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://owo.ink/public/6b0b9997573040ed3cc6230f3891f322.page")
+  img.main-bg(src="@|bg.jpg|")
+  .w1000.content
+    plug(_name="44V6SpMv" _src="https://owo.ink/public/9ae01844f597efedc55577b6ea9004d6.page")
+    //- 主标题
+    .main-title
+      h1
+        a(href="#") 2018人民网留言办理工作会议在南京召开
+      h3
+        a(href="#") 开创中国特色社会主义事业新局面的坚强领导集体——党的新一届中央领导机构实
+    //- 新闻列表
+    ul.news-card-box.clear
+      li.fl
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        .right
+          h2 人民日报副总编辑、人民网董事长王一彪
+          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+            a(href="#") [详细]
+      li.fl
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        .right
+          h2 人民日报副总编辑、人民网董事长王一彪
+          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+            a(href="#") [详细]
+      li.fl
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        .right
+          h2 人民日报副总编辑、人民网董事长王一彪
+          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+            a(href="#") [详细]
+      li.fl
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        .right
+          h2 人民日报副总编辑、人民网董事长王一彪
+          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+            a(href="#") [详细]
+      li.fl
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        .right
+          h2 人民日报副总编辑、人民网董事长王一彪
+          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+            a(href="#") [详细]
+      li.fl
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        .right
+          h2 人民日报副总编辑、人民网董事长王一彪
+          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+            a(href="#") [详细]
 </template>
 
 <script>
@@ -12,5 +60,66 @@
 
 
 <style lang="less">
+.main-bg {
+  width: 100%;
+  display: block;
+}
+.content.w1000 {
+  margin-top: -35px;
+  .main-title {
+    margin-top: 40px;
+    h1 {
+      font-size: 40px;
+      line-height: 52px;
+      color: #273f9c;
+      text-align: center;
+      font-family: "Microsoft YaHei";
+    }
+    h3 {
+      text-align: center;
+      line-height: 30px;
+      font-weight: normal;
+      font-size: 14px;
+      color: #333333;
+    }
+  }
+}
+.swiper-container-p2 {
+  box-shadow: 1px 1px 8px #291f1f;
+  
+}
 
+.news-card-box {
+  margin-top: 20px;
+  li {
+    width: 500px;
+    height: 140px;
+    margin: 10px 0;
+    overflow: hidden;
+  }
+  .left {
+    width: 230px;
+    height: 100%;
+  }
+  .right {
+    width: 185px;
+    padding-left: 25px;
+  }
+  .left, .right {
+    float: left;
+  }
+  h2 {
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 6px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 22px;
+    a {
+      color: #d42d26;
+    }
+  }
+}
 </style>

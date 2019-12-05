@@ -1,0 +1,313 @@
+body, html, .owo, .page-box {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+
+a {
+  color: #333;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.title-bar {
+  height: 40px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.title-bar .content {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+.title-bar img {
+  margin: 5px 10px;
+  height: 30px;
+}
+
+.title-bar a {
+  float: left;
+  display: block;
+}
+
+.title-bar .link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 40px;
+}
+
+.title-bar a {
+  color: #333;
+  text-decoration: none;
+}.owo-hover-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.owo-hover-grow:hover, .owo-hover-grow:focus, .owo-hover-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.swiper-container-p2 {
+  position: relative;
+  width: 980px;
+  height: 485px;
+  margin: 0 auto;
+  overflow: hidden;
+  color: white;
+}
+
+.swiper-container-p2 .swiper-slide {
+  width: 980px;
+  height: 485px;
+  position: relative;
+}
+
+.swiper-container-p2 .swiper-slide span {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 64px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 960px;
+  padding: 0 10px;
+  display: block;
+  line-height: 64px;
+  font-size: 20px;
+  color: white;
+}
+
+.swiper-container-p2 .prev {
+  background: url(http://www.people.com.cn/img/2016people/images/focus_left_b.png);
+  width: 18px;
+  height: 25px;
+  position: absolute;
+  cursor: pointer;
+  bottom: 18px;
+  left: 70px;
+  z-index: 10;
+}
+
+.swiper-container-p2 .next {
+  background: url(http://www.people.com.cn/img/2016people/images/focus_right_b.png);
+  width: 18px;
+  height: 25px;
+  position: absolute;
+  cursor: pointer;
+  bottom: 18px;
+  right: 35px;
+  z-index: 10;
+}
+
+.swiper-container-p2 .swiper-pagination1 {
+  display: none;
+}
+
+.swiper-container-p2 .num1 {
+  color: #fff;
+  display: block;
+  font-size: 26px;
+  position: absolute;
+  right: 8%;
+  bottom: 5px;
+  line-height: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.swiper-container-p2 .num1 i {
+  letter-spacing: 6px;
+}
+
+.swiper-container-p2 .num1 i em {
+  color: #fff;
+  margin-left: 2px;
+}
+
+.swiper-container-p2 .num1 i em.thisp {
+  font-size: 28px;
+  color: #e71f18;
+  margin-right: 1px;
+  margin-left: 0;
+}
+
+.swiper-container-p2 .video-id {
+  display: none;
+}
+
+.swiper-container-p2 .video-box {
+  display: none;
+}
+
+.swiper-container-p2 .video-box,
+.swiper-container-p2 .video-box .video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.swiper-container-p2 .close-button {
+  position: absolute;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 26px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.swiper-container-p2 .video-box .video object,
+.swiper-container-p2 .video-box .video video,
+.swiper-container-p2 .video-box .video embed {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container-p2 .is-video span {
+  padding-left: 60px;
+  width: 910px;
+}
+
+.swiper-container-p2 .play-button {
+  position: absolute;
+  bottom: 15px;
+  left: 13px;
+  cursor: pointer;
+}
+.main-bg {
+  width: 100%;
+  display: block;
+}
+
+.content.w1000 {
+  margin-top: -35px;
+}
+
+.content.w1000 .main-title {
+  margin-top: 40px;
+}
+
+.content.w1000 .main-title h1 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #273f9c;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+}
+
+.content.w1000 .main-title h3 {
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333333;
+}
+
+.swiper-container-p2 {
+  box-shadow: 1px 1px 8px #291f1f;
+}
+
+.news-card-box {
+  margin-top: 20px;
+}
+
+.news-card-box li {
+  width: 500px;
+  height: 140px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.news-card-box .left {
+  width: 230px;
+  height: 100%;
+}
+
+.news-card-box .right {
+  width: 185px;
+  padding-left: 25px;
+}
+
+.news-card-box .left,
+.news-card-box .right {
+  float: left;
+}
+
+.news-card-box h2 {
+  line-height: 24px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  margin-bottom: 6px;
+}
+
+.news-card-box p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.news-card-box p a {
+  color: #d42d26;
+}
+
