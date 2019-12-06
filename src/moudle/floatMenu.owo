@@ -1,0 +1,53 @@
+<template>
+  <!-- 浮动菜单 -->
+  <div class="float-bar">
+    <ul>
+      <li><a href="#hyrc">会议议程</a></li>
+      <li><a href="#hyxc">会议现场</a></li>
+      <li><a href="#gfzkztyj">高峰智库主题演讲</a></li>
+      <li><a href="#pxlt">平行论坛</a></li>
+      <li><a href="#wjhg">往届回顾</a></li>
+      <li><a href="#mxdw">鸣谢单位</a></li>
+      <li><a href="#ddgx">迭代更新</a></li>
+    </ul>
+    <a class="to-top" href="#top">回到顶部</a>
+  </div>
+</template>
+
+<style>
+
+.float-bar {
+  background-image: url('@|floatBar.png|');
+  width: 141px;
+  height: 397px;
+  position: fixed;
+  right: 1%;
+  top: -6%;
+  bottom: 0;
+  margin: auto;
+  z-index: 99;
+}
+
+.float-bar ul {
+  padding-top: 56px;
+}
+
+.float-bar .to-top {
+  color: white;
+  text-align: center;
+  display: block;
+  line-height: 21px;
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  left: 5px;
+}
+
+.float-bar li {
+  line-height: 46px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+</style>

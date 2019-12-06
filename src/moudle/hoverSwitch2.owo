@@ -4,12 +4,14 @@
   ul
     li
       h2 新时代网上群众工作平台如何谋求进一步建设发展
-      p 距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……[详细］
+      p 距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……
+        a(href="#" target="_blank") [详细]
       .image-box
         img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051528557919099670289.jpg" width="610" height="372" alt="中国人民大学公共管理学院党委副书记、纪委书记孙柏瑛")
     li
       h2 新时代网上群众工作平台如何谋求进一步建设发展
       p 距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……[详细］
+        a(href="#" target="_blank") [详细]
       .image-box
         img(src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051007149596953657814.jpg" width="610" height="372" alt="中国人民大学公共管理学院党委副书记、纪委书记孙柏瑛2")
 </template>
@@ -43,18 +45,21 @@ ul {
     overflow: hidden;
     border-bottom: 1px solid #ccc;
     margin-bottom: 19px;
-    p {
-      user-select: none;
-      pointer-events: none;
-    }
     h2 {
       font-size: 18px;
       font-family: "Microsoft YaHei";
-      margin-bottom: 3px;
+      margin-bottom: 8px;
     }
   }
 }
+p {
+  font-size: 14px;
+  line-height: 30px;
+}
 .image-box {
   display: none;
+}
+a, a:hover {
+  color: #d42d26;
 }
 </style>

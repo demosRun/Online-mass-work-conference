@@ -1,10 +1,10 @@
 <template>
   <div class="swiper">
     <ul class="roundabout-box"> 
-      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="486" height="567" /></a><em>介绍的内容</em></li>
-      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="486" height="567" /></a><em></em></li>
-      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="486" height="567" /></a><em>介绍的内容</em></li>
-      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="486" height="567" /></a><em></em></li>
+      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="980" height="470" /></a><em>介绍的内容</em></li>
+      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="980" height="470" /></a><em></em></li>
+      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="980" height="470" /></a><em>介绍的内容</em></li>
+      <li><a href=""><img src="http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg" width="980" height="470" /></a><em></em></li>
     </ul> 
     <div class="prev"></div>
     <div class="next"></div>    
@@ -30,21 +30,19 @@ module.exports = {
 <style lang="less">
 .swiper {
   position: relative;
-  width: 1200px;
+  width: 1400px;
   overflow: hidden;
-  margin: 0 auto;
   height: 470px;
-  margin: 0 -100px;
+  margin: 0 -200px;
 }
 
 .roundabout-box {
   height: 100%;
-  margin:0 auto;
   width: 600px;
   margin: 0 auto;
 }
 .roundabout-moveable-item {
-  width: 800px;
+  width: 980px;
   cursor: pointer;
 }
 .roundabout-moveable-item {
@@ -76,7 +74,7 @@ module.exports = {
   bottom: 0;
   margin: auto;
   left: 205px;
-  cursor:pointer;
+  cursor: pointer;
 }
 a {
   display: block;
@@ -94,8 +92,8 @@ em {
   color: white;
   font-style: inherit;
   display: none;
-  width: 94%;
-  padding: 0 3%;
+  width: 96%;
+  padding: 0 2%;
   line-height: 30px;
   background-color: rgba(0, 0, 0, 0.5);
 }

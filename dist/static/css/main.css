@@ -4,7 +4,6 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
   font: normal 12px/180% "SimSun";
   -webkit-overflow-scrolling: touch;
 }
@@ -17,6 +16,9 @@ body, html, .ox {
   padding: 0;
   margin: 0;
   position: relative;
+}
+body {
+  opacity: 0;
 }
 h1, h2, h3, h4, h5, input {
   margin: 0;
@@ -57,4 +59,168 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .fl {
   float: left;
+}
+
+.float-circular {
+  position: absolute;
+  top: -115px;
+  left: -545px;
+  z-index: -1;
+}
+
+.xuanzhun {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+  -webkit-animation: rotate 120s linear infinite;
+  -moz-animation: rotate 120s linear infinite;
+  -o-animation: rotate 120s linear infinite;
+  animation: rotate 120s linear infinite;
+}
+@-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg)}
+  to{-webkit-transform: rotate(360deg)}
+}
+@-moz-keyframes rotate{from{-moz-transform: rotate(0deg)}
+  to{-moz-transform: rotate(359deg)}
+}
+@-o-keyframes rotate{from{-o-transform: rotate(0deg)}
+  to{-o-transform: rotate(359deg)}
+}
+@keyframes rotate{from{transform: rotate(0deg)}
+  to{transform: rotate(359deg)}
+}
+
+.float-qr-code {
+  position: fixed;
+  right: 1%;
+  bottom: 7%;
+  z-index: 99;
+}
+
+.pc, .phone {
+  opacity: 1;
+}
+
+.swiper-slide a, .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* 手机适配 */
+.phone .title-bar,
+.phone .main-bg,
+.phone .gfzkztyj,
+.phone .pxlt,
+.phone .wjhg,
+.phone .mxdw,
+.phone .liuyanban,
+.phone .mt30,
+.phone .float-bar,
+.phone .float-qr-code,
+.phone .next,
+.phone .num1 {
+  display: none;
+}
+
+.phone {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.phone .phone-start {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: top 0.8s;
+}
+
+.phone .float-circular {
+  top: 0;
+  left: -99vw;
+  width: 180vw;
+  z-index: 9;
+  bottom: -122vw;
+  margin: auto;
+}
+
+.phone .content.w1000 {
+  padding: 0;
+}
+
+.phone .w1000, .phone .swiper-container-p2 {
+  width: 100vw;
+}
+
+.phone .swiper-container-p2 {
+  height: 30vh;
+}
+
+.phone .swiper-container-p2 .swiper-slide span {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.phone .swiper-container-p2 .play-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.phone .swiper-container-p2 .is-video span {
+  padding: 0 10px;
+}
+
+.phone .content.w1000 .main-title {
+  margin-top: 10px;
+}
+
+.phone .content.w1000 .main-title h1 {
+  font-size: 24px;
+  line-height: 30px;
+  padding: 0 4%;
+}
+
+.phone .content.w1000 .main-title h3 {
+  display: none;
+}
+
+.phone .news-card-box {
+  margin-top: 10px;
+}
+
+.phone .news-card-box li {
+  width: 98vw;
+  margin: 1vh 1vw;
+  display: block;
+  height: 30vw;
+}
+
+.phone .news-card-box .left, .phone .news-card-box .right {
+  width: 49%;
+  padding: 0;
+}
+
+.phone .news-card-box .left {
+  margin-right: 2%;
+}
+
+.phone .news-card-box h2 {
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.phone .news-card-box p {
+  font-size: 12px;
+  line-height: 20px;
 }

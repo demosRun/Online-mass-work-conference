@@ -1,5 +1,7 @@
 <template>
-  <div class="image-bar"></div>
+  <div class="image-bar">
+    <img src="{{prop._img}}"></img>
+  </div>
 </template>
 
 <style lang="less">
@@ -8,5 +10,9 @@
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
 </style>

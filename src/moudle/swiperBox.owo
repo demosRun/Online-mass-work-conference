@@ -2,46 +2,45 @@
 .swiper-box.clear
   //- 用户填写
   ul.left-bar
-    li
+    li(o-hover="backward")
       h1 更名仪式首批部委入驻
       .image-list
         .swiper-slide
           h2 2019年度工作会议
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
         .swiper-slide
           h2 2019年度工作会议
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
       h3 人民网“政点评”试点加盟仪式
       p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
-    li 
+    li(o-hover="backward")
       h1 政点评现场连线：党政群机关、网友讲述
       .image-list
         .swiper-slide
           h2 2019年度工作会议2
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
         .swiper-slide
           h2 2019年度工作会议2
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
       h3 政点评现场连线：党政群机关、网友讲述
       p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
-    li
+    li(o-hover="backward")
       h1 “办得好”网上群众工作案例征集启动仪式
       .image-list
         .swiper-slide
           h2 2019年度工作会议3
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
         .swiper-slide
           h2 2019年度工作会议3
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
       h3 “办得好”网上群众工作案例征集启动仪式
       p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
-
-    li
+    li(o-hover="backward")
       h1 第二批成员加盟暨领导留言板“思政课”启动仪式
       .image-list
         .swiper-slide
           h2 2019年度工作会议4
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
       h3 第二批成员加盟暨领导留言板“思政课”启动仪式
       p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
   
@@ -59,10 +58,10 @@
       .image-list
         .swiper-slide
           h2 2019年度工作会议
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg")
         .swiper-slide
           h2 2019年度工作会议
-          img(width="610" height="338" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
+          img(width="480" height="320" src="http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg")
       h3 人民网“政点评”试点加盟仪式
       p “走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人办全国性的网民留言办理工作会。
        
@@ -90,6 +89,7 @@
     height: 320px;
     position: relative;
     overflow: hidden;
+    margin: 0 10px;
     h2 {
       position: absolute;
       bottom: 0;
@@ -111,6 +111,7 @@
   }
   .text-container {
     float: left;
+    height: 100%;
   }
 }
 .left-bar {
@@ -133,6 +134,7 @@
     font-size: 15px;
     padding: 0 5px;
     cursor: pointer;
+    width: 175px;
     h1 {
       height: 100%;
       width: 100%;
@@ -151,16 +153,16 @@
   }
 }
 .text-container {
-  width: 300px;
+  width: 280px;
   padding-left: 20px;
   h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
     line-height: 30px;
     font-family: "Microsoft YaHei";
   }
   p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 26px;
     color: #666666;
   }

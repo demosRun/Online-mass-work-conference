@@ -1,5 +1,28 @@
+console.log(document.body.clientWidth, document.body.clientHeight)
+
+
 
 $(function () {
+  if ((document.body.clientWidth / document.body.clientHeight) < 1) {
+    document.body.classList.add('phone')
+    // 手机进场动画
+    owo.tool.animate('bounceInDown', document.getElementsByClassName('so-4')[0])
+    owo.tool.animate('bounceInLeft', document.getElementsByClassName('so-3')[0], 800)
+    owo.tool.animate('bounceInRight', document.getElementsByClassName('so-2')[0], 1600)
+    owo.tool.animate('fadeIn', document.getElementsByClassName('so-1')[0], 2800)
+    owo.tool.animate('fadeInUp', document.getElementsByClassName('so-0')[0], 3600)
+
+    setTimeout(() => {
+      const phoneHome = document.getElementsByClassName('phone-start')[0]
+      document.getElementsByClassName('float-circular')[0].style.display = 'none'
+      phoneHome.style.top = '-100vh'
+      setTimeout(() => {
+        phoneHome.innerHTML = ''
+      }, 1000)
+    }, 6000)
+  } else {
+    document.body.classList.add('pc')
+  }
   var swiperBox = null
   function activeIndex (liTtem) {
     $('.swiper-box .right-bar')[0].style.display = 'none'

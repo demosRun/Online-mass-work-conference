@@ -107,7 +107,7 @@ li {
 
 .swiper-container-p2 {
   position: relative;
-  width: 980px;
+  width: 1000px;
   height: 485px;
   margin: 0 auto;
   overflow: hidden;
@@ -126,7 +126,7 @@ li {
   bottom: 0;
   left: 0;
   position: absolute;
-  width: 960px;
+  width: 980px;
   padding: 0 10px;
   display: block;
   line-height: 64px;
@@ -204,6 +204,7 @@ li {
   left: 0;
   top: 0;
   z-index: 99;
+  background-color: black;
 }
 
 .swiper-container-p2 .close-button {
@@ -227,7 +228,7 @@ li {
 
 .swiper-container-p2 .is-video span {
   padding-left: 60px;
-  width: 910px;
+  width: 930px;
 }
 
 .swiper-container-p2 .play-button {
@@ -235,6 +236,8 @@ li {
   bottom: 15px;
   left: 13px;
   cursor: pointer;
+  width: auto;
+  height: auto;
 }
 .image-bar {
   height: 100px;
@@ -242,6 +245,30 @@ li {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.image-bar img {
+  display: block;
+  margin: 0 auto;
+}/* Backward */
+.owo-hover-backward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.owo-hover-backward:hover, .owo-hover-backward:focus, .owo-hover-backward:active {
+  -webkit-transform: translateX(-8px);
+  transform: translateX(-8px);
+}
+
 .swiper-box .user-edit {
   display: none;
 }
@@ -269,6 +296,7 @@ li {
   height: 320px;
   position: relative;
   overflow: hidden;
+  margin: 0 10px;
 }
 
 .swiper-box .right-bar .swiper-container-box h2 {
@@ -295,6 +323,7 @@ li {
 
 .swiper-box .right-bar .text-container {
   float: left;
+  height: 100%;
 }
 
 .swiper-box .left-bar {
@@ -323,6 +352,7 @@ li {
   font-size: 15px;
   padding: 0 5px;
   cursor: pointer;
+  width: 175px;
 }
 
 .swiper-box .left-bar li h1 {
@@ -348,19 +378,19 @@ li {
 }
 
 .swiper-box .text-container {
-  width: 300px;
+  width: 280px;
   padding-left: 20px;
 }
 
 .swiper-box .text-container h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
   line-height: 30px;
   font-family: "Microsoft YaHei";
 }
 
 .swiper-box .text-container p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 26px;
   color: #666666;
 }
@@ -389,7 +419,7 @@ li {
   background-color: #243d99;
 }
 .metting-box {
-  height: 400px;
+  height: 365px;
   position: relative;
   background-repeat: no-repeat;
   background-image: url("../resource/box-bg.png");
@@ -430,12 +460,16 @@ li {
 .metting-box .time-line .time-line-bar {
   float: left;
   width: 250px;
-  margin-right: 67px;
+  margin-right: 80px;
 }
 
 .metting-box strong {
   color: #434343;
   font-size: 14px;
+}
+
+.metting-box .time-line-bar-3 {
+  padding-left: 15px;
 }
 .card-more li {
   width: 220px;
@@ -457,10 +491,6 @@ li {
   line-height: 22px;
 }
 
-.card-more a:hover {
-  text-decoration: none;
-}
-
 .card-more ul {
   height: 430px;
   overflow: hidden;
@@ -476,6 +506,10 @@ li {
 
 .card-more .show-more {
   height: auto;
+}
+
+.card-more a {
+  display: block;
 }
 .hover-switch {
   height: 380px;
@@ -552,30 +586,31 @@ li {
   margin-bottom: 19px;
 }
 
-.hover-switch-2 ul li p {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  pointer-events: none;
-}
-
 .hover-switch-2 ul li h2 {
   font-size: 18px;
   font-family: "Microsoft YaHei";
-  margin-bottom: 3px;
+  margin-bottom: 8px;
+}
+
+.hover-switch-2 p {
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .hover-switch-2 .image-box {
   display: none;
 }
+
+.hover-switch-2 a,
+.hover-switch-2 a:hover {
+  color: #d42d26;
+}
 .swiper {
   position: relative;
-  width: 1200px;
+  width: 1400px;
   overflow: hidden;
-  margin: 0 auto;
   height: 470px;
-  margin: 0 -100px;
+  margin: 0 -200px;
 }
 
 .swiper .roundabout-box {
@@ -585,7 +620,7 @@ li {
 }
 
 .swiper .roundabout-moveable-item {
-  width: 800px;
+  width: 980px;
   cursor: pointer;
 }
 
@@ -645,8 +680,8 @@ li {
   color: white;
   font-style: inherit;
   display: none;
-  width: 94%;
-  padding: 0 3%;
+  width: 96%;
+  padding: 0 2%;
   line-height: 30px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -690,7 +725,7 @@ li {
 
 .liuyanban .item-2 {
   width: 250px;
-  padding-left: 107px;
+  padding-left: 100px;
 }
 
 .liuyanban .item-2 h2 {
@@ -722,13 +757,62 @@ li {
 .liuyanban h2 {
   font-family: "Microsoft YaHei";
 }
+.mt30 {
+  position: relative;
+  font-size: 12px;
+  height: 60px;
+  color: #000000;
+  z-index: 999;
+  width: 100%;
+  line-height: 24px;
+  text-align: center;
+  background-color: transparent;
+}
+.float-bar {
+  background-image: url('../resource/floatBar.png');
+  width: 141px;
+  height: 397px;
+  position: fixed;
+  right: 1%;
+  top: -6%;
+  bottom: 0;
+  margin: auto;
+  z-index: 99;
+}
+
+.float-bar ul {
+  padding-top: 56px;
+}
+
+.float-bar .to-top {
+  color: white;
+  text-align: center;
+  display: block;
+  line-height: 21px;
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  left: 5px;
+}
+
+.float-bar li {
+  line-height: 46px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
 .main-bg {
   width: 100%;
   display: block;
+  position: absolute;
+  top: 40px;
+  z-index: -2;
 }
 
 .content.w1000 {
-  margin-top: -35px;
+  padding-top: 26%;
+  padding-top: 25vw;
 }
 
 .content.w1000 .main-title {
@@ -756,7 +840,7 @@ li {
 }
 
 .news-card-box {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .news-card-box li {
@@ -815,12 +899,13 @@ li {
 }
 
 .image-bar {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  background-image: url(../resource/title-zdtj.png);
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .content-2 {
+  padding-top: 5px;
+  margin-top: 30px;
   background-color: #f8f9fe;
 }
 
@@ -831,5 +916,220 @@ li {
 .logo-box img {
   display: block;
   margin: 0 auto;
+}
+
+.mt30 {
+  padding: 20px 0;
+  padding-top: 50px;
+}
+
+.close-qr-code {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.phone-start {
+  display: none;
+  background-image: url("../resource/phone-bg.png");
+}
+
+.phone-start .soulless {
+  position: absolute;
+  z-index: 10;
+}
+
+.phone-start .so-4 {
+  height: 6vw;
+  width: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -60%;
+  bottom: 0%;
+}
+
+.phone-start .so-3 {
+  height: 15vw;
+  width: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -30%;
+  bottom: 0%;
+}
+
+.phone-start .so-2 {
+  height: 16vw;
+  width: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  top: 0%;
+}
+
+.phone-start .so-1 {
+  height: 10vw;
+  width: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -30%;
+  top: 0%;
+}
+
+.phone-start .so-0 {
+  height: 18vw;
+  width: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -57%;
+  top: 0%;
+}
+
+/* 动画效果 */
+@keyframes bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInDown {
+  animation-name: bounceInDown;
+}
+
+@keyframes bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft;
+}
+
+@keyframes bounceInRight {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInRight {
+  animation-name: bounceInRight;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
 }
 

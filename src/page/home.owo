@@ -1,5 +1,6 @@
 <template lang="pug">
 .home
+  a(name="top")
   plug(_name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://owo.ink/public/6b0b9997573040ed3cc6230f3891f322.page")
   img.main-bg(src="@|bg.jpg|")
   .w1000.content
@@ -13,37 +14,25 @@
     //- 图文列表
     ul.news-card-box.clear
       li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
         .right
           h2 人民日报副总编辑、人民网董事长王一彪
           p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
             a(href="#") [详细]
       li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
         .right
           h2 人民日报副总编辑、人民网董事长王一彪
           p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
             a(href="#") [详细]
       li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
         .right
           h2 人民日报副总编辑、人民网董事长王一彪
           p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
             a(href="#") [详细]
       li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
-        .right
-          h2 人民日报副总编辑、人民网董事长王一彪
-          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
-            a(href="#") [详细]
-      li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
-        .right
-          h2 人民日报副总编辑、人民网董事长王一彪
-          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
-            a(href="#") [详细]
-      li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg")
+        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
         .right
           h2 人民日报副总编辑、人民网董事长王一彪
           p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
@@ -71,33 +60,71 @@
       li
         a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
     //- 标题栏
-    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+    //- 重点推荐
+    plug(_name="imageBar" _img="@|title-zdtj.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
     plug(_name="swiperBox" _src="./src/moudle/swiperBox.owo")
+  //- 会议议程
   .content-2
     .w1000
-      plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      a(name="hyrc")
+      plug(_name="imageBar" _img="@|title-hyrc.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
       plug(_name="mettingBox" _src="./src/moudle/mettingBox.owo")
   .content-3.w1000
-    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-    plug(_name="cardMore" _src="./src/moudle/cardMore.owo")
-    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-    plug(_name="hoverSwitch" _src="./src/moudle/hoverSwitch.owo")
-    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-    plug(_name="hoverSwitch2" _src="./src/moudle/hoverSwitch2.owo")
-    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-    plug(_name="3d-swiper" _src="https://owo.ink/public/932b83aad23cb24edb47ddc4c49b9bad.page")
-    plug(_name="imageBar" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-    ul.logo-box
-      img(src="@|logo-box.png|")
-  .content-2
+    //- 会议现场
+    .hyxc
+      a(name="hyxc")
+      plug(_name="imageBar" _img="@|title-hyxc.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      plug(_name="cardMore" _src="./src/moudle/cardMore.owo")
+    .gfzkztyj
+      a(name="gfzkztyj")
+      plug(_name="imageBar" _img="@|title-gfzkztyj.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      plug(_name="hoverSwitch" _src="./src/moudle/hoverSwitch.owo")
+    //- 平行论坛
+    .pxlt
+      a(name="pxlt")
+      plug(_name="imageBar" _img="@|title-pxlt.png|"  _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      plug(_name="hoverSwitch2" _src="./src/moudle/hoverSwitch2.owo")
+    //- 往届回顾
+    .wjhg
+      a(name="wjhg")
+      plug(_name="imageBar" _img="@|title-wjhg.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      plug(_name="3d-swiper" _src="https://owo.ink/public/932b83aad23cb24edb47ddc4c49b9bad.page")
+    .mxdw
+      a(name="mxdw")
+      plug(_name="imageBar" _img="@|title-mxdw.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      ul.logo-box
+        img(src="@|logo-box.png|")
+  //- 留言板
+  .content-2.liuyanban
     .w1000
       plug(_name="liuyanban" _src="./src/moudle/liuyanban.owo")
+  //- 底部版权信息
+  plug(_name="copyright" _src="https://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page")
+  plug(_name="floatMenu" _src="./src/moudle/floatMenu.owo")
+  //- 下载二维码的浮动
+  .float-qr-code
+    .close-qr-code(o-hover="grow" onclick="document.getElementsByClassName('float-qr-code')[0].style.display = 'none'") ✕
+    img(src="@|qr-3.png|")
+  //- 浮动的圆
+  img.float-circular.xuanzhun(src="@|circular.png|")
+  //- 手机起始页面
+  .phone-start
+    img.soulless.so-4.item-4(width="619", height="51", src="@|one-4.png|")
+    img.soulless.so-3.item-3(width="493", height="135", src="@|one-3.png|")
+    img.soulless.so-2.item-2(width="583", height="131", src="@|one-2.png|")
+    img.soulless.so-1.item-1(width="190", height="82", src="@|one-1.png|")
+    img.soulless.so-0.item-0(width="255", height="159", src="@|one-0.png|")
+
 </template>
 
 <script>
   module.exports = {
     created: function () {
-
+      // owo.tool.animate('bounceInDown', document.getElementsByClassName('so-4')[0])
+      // owo.tool.animate('bounceInLeft', document.getElementsByClassName('so-3')[0], 1000)
+      // owo.tool.animate('bounceInRight', document.getElementsByClassName('so-2')[0], 1600)
+      // owo.tool.animate('fadeIn', document.getElementsByClassName('so-1')[0], 2400)
+      // owo.tool.animate('fadeInUp', document.getElementsByClassName('so-0')[0], 3200)  
     }
   }
 </script>
@@ -107,9 +134,13 @@
 .main-bg {
   width: 100%;
   display: block;
+  position: absolute;
+  top: 40px;
+  z-index: -2;
 }
 .content.w1000 {
-  margin-top: -35px;
+  padding-top: 26%;
+  padding-top: 25vw;
   .main-title {
     margin-top: 40px;
     h1 {
@@ -134,7 +165,7 @@
 }
 
 .news-card-box {
-  margin-top: 20px;
+  margin-top: 25px;
   li {
     width: 500px;
     height: 140px;
@@ -182,11 +213,12 @@
   }
 }
 .image-bar {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  background-image: url(@|title-zdtj.png|);
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 .content-2 {
+  padding-top: 5px;
+  margin-top: 30px;
   background-color: #f8f9fe;
 }
 
@@ -195,6 +227,74 @@
   img {
     display: block;
     margin: 0 auto;
+  }
+}
+.mt30 {
+  padding: 20px 0;
+  padding-top: 50px;
+}
+.close-qr-code {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.phone-start {
+  display: none;
+  
+  background-image: url("@|phone-bg.png|");
+  .soulless {
+    position: absolute;
+    z-index: 10;
+  }
+  .so-4 {
+    height: 6vw;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -60%;
+    bottom: 0%;
+  }
+  .so-3 {
+    height: 15vw;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -30%;
+    bottom: 0%;
+  }
+  .so-2 {
+    height: 16vw;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0%;
+  }
+  .so-1 {
+    height: 10vw;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -30%;
+    top: 0%;
+  }
+  .so-0 {
+    height: 18vw;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -57%;
+    top: 0%;
   }
 }
 </style>

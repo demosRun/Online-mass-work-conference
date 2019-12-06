@@ -3,7 +3,7 @@
     <div class="swiper-wrapper"> 
       <div class="swiper-slide">
         <a href="#" target="_blank">
-          <img src="http://www.people.com.cn/NMediaFile/2019/0620/MAIN201906202020493087485176183.jpg" width="980" height="485" alt="" />
+          <img src="@|show.jpg|" width="1000" height="485" alt="" />
           <span>中乌“合作—2019”联合反恐演练圆满结束</span>
         </a>
         <div class="video-id">/pvservice/xml/2019/12/4/a58f84cf-49d0-4850-b58d-60b4593c9652.xml</div>
@@ -11,13 +11,13 @@
       </div> 
       <div class="swiper-slide">
         <a href="#" target="_blank">
-          <img src="http://www.people.com.cn/NMediaFile/2019/0620/MAIN201906202025094971392065777.jpg" width="980" height="485" alt="" />
+          <img src="http://www.people.com.cn/NMediaFile/2019/0620/MAIN201906202025094971392065777.jpg" width="1000" height="485" alt="" />
         </a>
         <span>远方的母亲，请接受来自军人的祝福</span>
       </div> 
       <div class="swiper-slide">
         <a href="#" target="_blank">
-          <img src="http://www.people.com.cn/NMediaFile/2019/0619/MAIN201906191838270226271022901.jpg" width="980" height="485" alt="" />
+          <img src="http://www.people.com.cn/NMediaFile/2019/0619/MAIN201906191838270226271022901.jpg" width="1000" height="485" alt="" />
         </a>
         <span>纪念百年五四——新时代青年新面貌</span>
       </div> 
@@ -103,7 +103,7 @@
 <style lang="less">
 .swiper-container-p2 {
   position: relative;
-  width: 980px;
+  width: 1000px;
   height: 485px;
   margin: 0 auto;
   overflow: hidden;
@@ -122,7 +122,7 @@
   bottom: 0;
   left: 0;
   position: absolute;
-  width: 960px;
+  width: 980px;
   padding: 0 10px;
   display: block;
   line-height: 64px;
@@ -196,6 +196,7 @@
   left: 0;
   top: 0;
   z-index: 99;
+  background-color: black;
 }
 .close-button {
   position: absolute;
@@ -217,7 +218,7 @@
 .is-video {
   span {
     padding-left: 60px;
-    width: 910px;
+    width: 930px;
   }
 }
 .play-button {
@@ -225,5 +226,7 @@
   bottom: 15px;
   left: 13px;
   cursor: pointer;
+  width: auto;
+  height: auto;
 }
 </style>
