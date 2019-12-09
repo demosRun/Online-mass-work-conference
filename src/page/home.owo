@@ -1,103 +1,118 @@
 <template lang="pug">
-.home
-  a(name="top")
-  plug(_name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://owo.ink/public/6b0b9997573040ed3cc6230f3891f322.page")
-  img.main-bg(src="@|bg.jpg|")
-  .w1000.content
-    plug(_name="44V6SpMv" _src="https://owo.ink/public/9ae01844f597efedc55577b6ea9004d6.page")
-    //- 主标题
-    .main-title
-      h1
-        a(href="#") 2018人民网留言办理工作会议在南京召开
-      h3
-        a(href="#") 开创中国特色社会主义事业新局面的坚强领导集体——党的新一届中央领导机构实
-    //- 图文列表
-    ul.news-card-box.clear
-      li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
-        .right
-          h2 人民日报副总编辑、人民网董事长王一彪
-          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
-            a(href="#") [详细]
-      li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
-        .right
-          h2 人民日报副总编辑、人民网董事长王一彪
-          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
-            a(href="#") [详细]
-      li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
-        .right
-          h2 人民日报副总编辑、人民网董事长王一彪
-          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
-            a(href="#") [详细]
-      li.fl
-        img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
-        .right
-          h2 人民日报副总编辑、人民网董事长王一彪
-          p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
-            a(href="#") [详细]
-    //- 新闻列表
-    ul.news-box.clear
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-      li
-        a(href="#") 人民日报评论：“地方领导留言板”为何越办越火
-    //- 标题栏
-    //- 重点推荐
-    plug(_name="imageBar" _img="@|title-zdtj.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-    plug(_name="swiperBox" _src="./src/moudle/swiperBox.owo")
-  //- 会议议程
-  .content-2
-    .w1000
-      a(name="hyrc")
-      plug(_name="imageBar" _img="@|title-hyrc.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-      plug(_name="mettingBox" _src="./src/moudle/mettingBox.owo")
-  .content-3.w1000
-    //- 会议现场
-    .hyxc
-      a(name="hyxc")
-      plug(_name="imageBar" _img="@|title-hyxc.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-      plug(_name="cardMore" _src="./src/moudle/cardMore.owo")
-    .gfzkztyj
-      a(name="gfzkztyj")
-      plug(_name="imageBar" _img="@|title-gfzkztyj.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-      plug(_name="hoverSwitch" _src="./src/moudle/hoverSwitch.owo")
-    //- 平行论坛
-    .pxlt
-      a(name="pxlt")
-      plug(_name="imageBar" _img="@|title-pxlt.png|"  _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-      plug(_name="hoverSwitch2" _src="./src/moudle/hoverSwitch2.owo")
-    //- 往届回顾
-    .wjhg
-      a(name="wjhg")
-      plug(_name="imageBar" _img="@|title-wjhg.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-      plug(_name="3d-swiper" _src="https://owo.ink/public/932b83aad23cb24edb47ddc4c49b9bad.page")
-    .mxdw
-      a(name="mxdw")
-      plug(_name="imageBar" _img="@|title-mxdw.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
-      ul.logo-box
-        img(src="@|logo-box.png|")
-  //- 留言板
-  .content-2.liuyanban
-    .w1000
-      plug(_name="liuyanban" _src="./src/moudle/liuyanban.owo")
+.home.phone-swiper-container
+  .phone-swiper-wrapper.clear
+    .phone-swiper-slide
+      a(name="top")
+      plug(_name="topBar" _logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://owo.ink/public/6b0b9997573040ed3cc6230f3891f322.page")
+      img.main-bg(src="@|bg.jpg|")
+      .w1000.content
+        plug(_name="44V6SpMv" _src="https://owo.ink/public/9ae01844f597efedc55577b6ea9004d6.page")
+        //- 主标题
+        .main-title
+          h1
+            a(href="#" target="_blank") 2018人民网留言办理工作会议在南京召开
+          h3
+            a(href="#" target="_blank") 开创中国特色社会主义事业新局面的坚强领导集体——党的新一届中央领导机构实
+        //- 图文列表
+        ul.news-card-box.clear
+          li.fl
+            a(href="#" target="_blank")
+              img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
+              .right
+                h2 人民日报副总编辑、人民网董事长王一彪
+                p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+          li.fl
+            a(href="#" target="_blank")
+              img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
+              .right
+                h2 人民日报副总编辑、人民网董事长王一彪
+                p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+          li.fl
+            a(href="#" target="_blank")
+              img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
+              .right
+                h2 人民日报副总编辑、人民网董事长王一彪
+                p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+          li.fl
+            a(href="#" target="_blank")
+              img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
+              .right
+                h2 人民日报副总编辑、人民网董事长王一彪
+                p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+          li.fl
+            a(href="#" target="_blank")
+              img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
+              .right
+                h2 人民日报副总编辑、人民网董事长王一彪
+                p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+          li.fl
+            a(href="#" target="_blank")
+              img.left(src="http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg" width="230" height="140")
+              .right
+                h2 人民日报副总编辑、人民网董事长王一彪
+                p 距30px字体宋体，字号14号，行行间距30px字体宋体，字号22号号行间距行间距行间距30px字体体宋体宋体宋宋体……
+    .w1000.content-2.phone-swiper-slide
+      //- 新闻列表
+      ul.news-box.clear
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+        li
+          a(href="#" target="_blank") 人民日报评论：“地方领导留言板”为何越办越火
+      //- 标题栏
+      //- 重点推荐
+      plug(_name="imageBar" _img="@|title-zdtj.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+      plug(_name="swiperBox" _src="./src/moudle/swiperBox.owo")
+    //- 会议议程
+    .content-2.phone-swiper-slide
+      .w1000
+        a(name="hyrc")
+        plug(_name="imageBar" _img="@|title-hyrc.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+        plug(_name="mettingBox" _src="./src/moudle/mettingBox.owo")
+    .content-3.w1000.phone-swiper-slide
+      //- 会议现场
+      .hyxc
+        a(name="hyxc")
+        plug(_name="imageBar" _img="@|title-hyxc.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+        plug(_name="cardMore" _src="./src/moudle/cardMore.owo")
+      .gfzkztyj
+        a(name="gfzkztyj")
+        plug(_name="imageBar" _img="@|title-gfzkztyj.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+        plug(_name="hoverSwitch" _src="./src/moudle/hoverSwitch.owo")
+      //- 平行论坛
+      .pxlt
+        a(name="pxlt")
+        plug(_name="imageBar" _img="@|title-pxlt.png|"  _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+        plug(_name="hoverSwitch2" _src="./src/moudle/hoverSwitch2.owo")
+      //- 往届回顾
+      .wjhg
+        a(name="wjhg")
+        plug(_name="imageBar" _img="@|title-wjhg.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+        plug(_name="3d-swiper" _src="https://owo.ink/public/932b83aad23cb24edb47ddc4c49b9bad.page")
+      .mxdw
+        a(name="mxdw")
+        plug(_name="imageBar" _img="@|title-mxdw.png|" _src="https://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page")
+        ul.logo-box
+          img(src="@|logo-box.png|")
+    //- 留言板
+    .content-2.liuyanban
+      .w1000
+        plug(_name="liuyanban" _src="./src/moudle/liuyanban.owo")
   //- 底部版权信息
   plug(_name="copyright" _src="https://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page")
   plug(_name="floatMenu" _src="./src/moudle/floatMenu.owo")
