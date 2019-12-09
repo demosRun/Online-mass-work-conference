@@ -1,33 +1,44 @@
+// 设计宽度
+var deviseW = 750
+// 设计高度
+var deviseH = 1508
 
 $(function () {
   var scale = document.documentElement.clientWidth / document.documentElement.clientHeight
-  console.log(scale)
+  const scaleBox = document.getElementsByClassName('scale-box')[0]
   if ((scale) < 1) {
+    // 手机屏幕适配
+    var scale = window.innerWidth / deviseW
+    scaleBox.style.width = deviseW + 'px'
+    scaleBox.style.height = deviseH + 'px'
+    scaleBox.style.transform = `scale(${scale}, ${scale})`
+    // console.log(window.innerHeight, deviseH * scale)
+    scaleBox.style.transformOrigin = `0 ${(window.innerHeight - deviseH * scale) + 'px' } 0`
+
     document.body.classList.add('phone')
     // 手机进场动画
-    owo.tool.animate('bounceInDown', document.getElementsByClassName('so-4')[0])
-    owo.tool.animate('bounceInLeft', document.getElementsByClassName('so-3')[0], 800)
-    owo.tool.animate('bounceInRight', document.getElementsByClassName('so-2')[0], 1600)
-    owo.tool.animate('fadeIn', document.getElementsByClassName('so-1')[0], 2800)
+    owo.tool.animate('bounceInDown', document.getElementsByClassName('so-1')[0])
+    owo.tool.animate('bounceInLeft', document.getElementsByClassName('so-2')[0], 800)
+    owo.tool.animate('bounceInRight', document.getElementsByClassName('so-3')[0], 1600)
+    owo.tool.animate('fadeIn', document.getElementsByClassName('so-4')[0], 2800)
     owo.tool.animate('fadeInUp', document.getElementsByClassName('so-0')[0], 3600)
     setTimeout(() => {
-      swiperBox = new Swiper('.phone-swiper-container', {
+      new Swiper('.phone-swiper-container', {
         mode: 'horizontal',
         // preventLinks : false,
         slideClass : 'phone-swiper-slide',
         wrapperClass : 'phone-swiper-wrapper'
       })
     }, 0)
-    return
-    setTimeout(() => {
-      // window.scrollTo(0, 0)
-      const phoneHome = document.getElementsByClassName('phone-start')[0]
-      document.getElementsByClassName('float-circular')[0].style.display = 'none'
-      // phoneHome.style.top = '-100vh'
-      // setTimeout(() => {
-      //   phoneHome.innerHTML = ''
-      // }, 1000)
-    }, 6000)
+    // setTimeout(() => {
+    //   // window.scrollTo(0, 0)
+    //   const phoneHome = document.getElementsByClassName('phone-start')[0]
+    //   document.getElementsByClassName('float-circular')[0].style.display = 'none'
+    //   // phoneHome.style.top = '-100vh'
+    //   // setTimeout(() => {
+    //   //   phoneHome.innerHTML = ''
+    //   // }, 1000)
+    // }, 6000)
   } else {
     document.body.classList.add('pc')
   }

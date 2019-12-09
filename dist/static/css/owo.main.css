@@ -939,59 +939,75 @@ li {
   background-image: url("../resource/phone-bg.jpg");
 }
 
-.phone-start .soulless {
+.phone-start .so-1 {
   position: absolute;
-  z-index: 10;
-}
-
-.phone-start .so-4 {
-  height: 6.2vw;
-  width: auto;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: -60%;
-  bottom: 0%;
-}
-
-.phone-start .so-3 {
-  height: 18vw;
-  width: auto;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: -25%;
-  bottom: 0%;
+  left: 70px;
+  top: 293px;
+  z-index: 5;
 }
 
 .phone-start .so-2 {
-  height: 16vw;
-  width: auto;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0;
-  top: 0%;
+  position: absolute;
+  left: 102px;
+  top: 475px;
+  z-index: 4;
 }
 
-.phone-start .so-1 {
-  height: 10vw;
-  width: auto;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: -28%;
-  top: 0%;
+.phone-start .so-3 {
+  position: absolute;
+  left: 83px;
+  top: 668px;
+  z-index: 3;
+}
+
+.phone-start .so-4 {
+  position: absolute;
+  left: 274px;
+  top: 885px;
+  z-index: 2;
 }
 
 .phone-start .so-0 {
-  height: 18vw;
-  width: auto;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: -57%;
-  top: 0%;
+  position: absolute;
+  left: 248px;
+  top: 1116px;
+  z-index: 6;
+}
+
+.phone-start .hand {
+  position: absolute;
+  right: 4%;
+  bottom: 20%;
+  width: 80px;
+  opacity: 0.8;
+  -webkit-animation-name: scale2;
+          animation-name: scale2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes scale2 {
+  0% {
+    right: 4%;
+  }
+
+  100% {
+    right: 18%;
+  }
+}
+
+@keyframes scale2 {
+  0% {
+    right: 4%;
+  }
+
+  100% {
+    right: 18%;
+  }
 }
 
 /* 动画效果 */
