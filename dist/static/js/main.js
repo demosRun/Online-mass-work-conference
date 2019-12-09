@@ -18,14 +18,15 @@ $(function () {
         wrapperClass : 'phone-swiper-wrapper'
       })
     }, 0)
+    return
     setTimeout(() => {
-      window.scrollTo(0, 0)
+      // window.scrollTo(0, 0)
       const phoneHome = document.getElementsByClassName('phone-start')[0]
       document.getElementsByClassName('float-circular')[0].style.display = 'none'
-      phoneHome.style.top = '-100vh'
-      setTimeout(() => {
-        phoneHome.innerHTML = ''
-      }, 1000)
+      // phoneHome.style.top = '-100vh'
+      // setTimeout(() => {
+      //   phoneHome.innerHTML = ''
+      // }, 1000)
     }, 6000)
   } else {
     document.body.classList.add('pc')

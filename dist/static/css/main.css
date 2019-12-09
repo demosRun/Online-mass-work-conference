@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .float-circular {
   position: absolute;
-  top: -115px;
-  left: -545px;
+  top: -305px;
+  left: -1000px;
   z-index: -1;
 }
 
@@ -135,21 +135,13 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .phone .phone-start {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
   transition: top 0.8s;
-}
-
-.phone .float-circular {
-  top: 0;
-  left: -99vw;
-  width: 180vw;
-  z-index: 9;
-  bottom: -122vw;
-  margin: auto;
+  background-size: 100% 100%;
 }
 
 .phone .content.w1000 {
@@ -243,6 +235,7 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   float: left;
   margin: 0;
   padding: 0;
+  z-index: 99;
   background-color: #f2f2f2;
 }
 
@@ -365,4 +358,23 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   width: 100%;
   height: auto;
   display: block;
+}
+
+.phone-float-circular {
+  display: none;
+}
+
+.phone .float-circular {
+  display: none;
+}
+
+.phone .phone-float-circular {
+  top: 0;
+  left: -128vw;
+  width: 238vw;
+  z-index: 9;
+  bottom: -95vw;
+  margin: auto;
+  display: block;
+  position: absolute;
 }
