@@ -1,0 +1,162 @@
+[2019-12-10T00:24:35.797] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-10T00:24:35.800] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Online-mass-work-conference
+[2019-12-10T00:24:35.800] [INFO] default - 首次启动!
+[2019-12-10T00:24:35.800] [INFO] default - 生成版本号: mmbt5wolky
+[2019-12-10T00:24:35.809] [INFO] default - 清理资源文件夹: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static
+[2019-12-10T00:24:35.809] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static
+[2019-12-10T00:24:35.810] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static
+[2019-12-10T00:24:35.810] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-10T00:24:35.810] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-10T00:24:35.810] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-10T00:24:35.811] [INFO] default - 开始处理模块: home
+[2019-12-10T00:24:36.485] [INFO] default - 开始处理模块: topBar
+[2019-12-10T00:24:36.485] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Online-mass-work-conference\owo_modules\7c776025c29680036680cb22a13e2868.owo
+[2019-12-10T00:24:36.496] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/6b0b9997573040ed3cc6230f3891f322.page
+[2019-12-10T00:24:36.502] [DEBUG] default - 模块topBar处理用时: 18 毫秒!
+[2019-12-10T00:24:36.503] [INFO] default - 开始处理模块: 44V6SpMv
+[2019-12-10T00:24:36.503] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Online-mass-work-conference\owo_modules\a7d6fba2076c71b6b9e983c9ae14301e.owo
+[2019-12-10T00:24:36.529] [DEBUG] default - 缓存模板: 44V6SpMvhttps://owo.ink/public/9ae01844f597efedc55577b6ea9004d6.page
+[2019-12-10T00:24:36.590] [DEBUG] default - 模块44V6SpMv处理用时: 87 毫秒!
+[2019-12-10T00:24:36.596] [INFO] default - 开始处理模块: imageBar
+[2019-12-10T00:24:36.596] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Online-mass-work-conference\owo_modules\0ce71cf9a8798b9f30bd730237127f1c.owo
+[2019-12-10T00:24:36.602] [DEBUG] default - 缓存模板: imageBarhttps://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page
+[2019-12-10T00:24:36.606] [DEBUG] default - 模块imageBar处理用时: 11 毫秒!
+[2019-12-10T00:24:36.606] [INFO] default - 开始处理模块: swiperBox
+[2019-12-10T00:24:36.657] [DEBUG] default - 缓存模板: swiperBox./src/moudle/swiperBox.owo
+[2019-12-10T00:24:36.676] [DEBUG] default - 模块swiperBox处理用时: 70 毫秒!
+[2019-12-10T00:24:36.676] [DEBUG] default - 模块 imageBar 因名称重复被重命名为 imageBar-1
+[2019-12-10T00:24:36.676] [INFO] default - 开始处理模块: imageBar-1
+[2019-12-10T00:24:36.678] [DEBUG] default - 智能跳过打包imageBarhttps://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page的重复样式!
+[2019-12-10T00:24:36.678] [DEBUG] default - 模块imageBar处理用时: 2 毫秒!
+[2019-12-10T00:24:36.678] [INFO] default - 开始处理模块: mettingBox
+[2019-12-10T00:24:36.702] [DEBUG] default - 缓存模板: mettingBox./src/moudle/mettingBox.owo
+[2019-12-10T00:24:36.712] [DEBUG] default - 模块mettingBox处理用时: 34 毫秒!
+[2019-12-10T00:24:36.712] [DEBUG] default - 模块 imageBar 因名称重复被重命名为 imageBar-2
+[2019-12-10T00:24:36.712] [INFO] default - 开始处理模块: imageBar-2
+[2019-12-10T00:24:36.714] [DEBUG] default - 智能跳过打包imageBarhttps://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page的重复样式!
+[2019-12-10T00:24:36.714] [DEBUG] default - 模块imageBar处理用时: 2 毫秒!
+[2019-12-10T00:24:36.714] [INFO] default - 开始处理模块: cardMore
+[2019-12-10T00:24:36.759] [DEBUG] default - 缓存模板: cardMore./src/moudle/cardMore.owo
+[2019-12-10T00:24:36.771] [DEBUG] default - 模块cardMore处理用时: 57 毫秒!
+[2019-12-10T00:24:36.771] [DEBUG] default - 模块 imageBar 因名称重复被重命名为 imageBar-3
+[2019-12-10T00:24:36.771] [INFO] default - 开始处理模块: imageBar-3
+[2019-12-10T00:24:36.773] [DEBUG] default - 智能跳过打包imageBarhttps://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page的重复样式!
+[2019-12-10T00:24:36.773] [DEBUG] default - 模块imageBar处理用时: 2 毫秒!
+[2019-12-10T00:24:36.773] [INFO] default - 开始处理模块: hoverSwitch
+[2019-12-10T00:24:36.788] [DEBUG] default - 缓存模板: hoverSwitch./src/moudle/hoverSwitch.owo
+[2019-12-10T00:24:36.793] [DEBUG] default - 模块hoverSwitch处理用时: 20 毫秒!
+[2019-12-10T00:24:36.793] [DEBUG] default - 模块 imageBar 因名称重复被重命名为 imageBar-4
+[2019-12-10T00:24:36.793] [INFO] default - 开始处理模块: imageBar-4
+[2019-12-10T00:24:36.795] [DEBUG] default - 智能跳过打包imageBarhttps://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page的重复样式!
+[2019-12-10T00:24:36.795] [DEBUG] default - 模块imageBar处理用时: 2 毫秒!
+[2019-12-10T00:24:36.795] [INFO] default - 开始处理模块: hoverSwitch2
+[2019-12-10T00:24:36.813] [DEBUG] default - 缓存模板: hoverSwitch2./src/moudle/hoverSwitch2.owo
+[2019-12-10T00:24:36.818] [DEBUG] default - 模块hoverSwitch2处理用时: 23 毫秒!
+[2019-12-10T00:24:36.818] [DEBUG] default - 模块 imageBar 因名称重复被重命名为 imageBar-5
+[2019-12-10T00:24:36.818] [INFO] default - 开始处理模块: imageBar-5
+[2019-12-10T00:24:36.821] [DEBUG] default - 智能跳过打包imageBarhttps://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page的重复样式!
+[2019-12-10T00:24:36.821] [DEBUG] default - 模块imageBar处理用时: 3 毫秒!
+[2019-12-10T00:24:36.821] [INFO] default - 开始处理模块: 3d-swiper
+[2019-12-10T00:24:36.821] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Online-mass-work-conference\owo_modules\103e422c491dc3451439c499d6da22b4.owo
+[2019-12-10T00:24:36.834] [DEBUG] default - 缓存模板: 3d-swiperhttps://owo.ink/public/932b83aad23cb24edb47ddc4c49b9bad.page
+[2019-12-10T00:24:36.840] [DEBUG] default - 发现 comment 规则: undefined
+[2019-12-10T00:24:36.845] [DEBUG] default - 模块3d-swiper处理用时: 24 毫秒!
+[2019-12-10T00:24:36.845] [DEBUG] default - 模块 imageBar 因名称重复被重命名为 imageBar-6
+[2019-12-10T00:24:36.845] [INFO] default - 开始处理模块: imageBar-6
+[2019-12-10T00:24:36.847] [DEBUG] default - 智能跳过打包imageBarhttps://owo.ink/public/78fd6ab8c50520c13b06a98e434475b7.page的重复样式!
+[2019-12-10T00:24:36.847] [DEBUG] default - 模块imageBar处理用时: 2 毫秒!
+[2019-12-10T00:24:36.848] [INFO] default - 开始处理模块: liuyanban
+[2019-12-10T00:24:36.869] [DEBUG] default - 缓存模板: liuyanban./src/moudle/liuyanban.owo
+[2019-12-10T00:24:36.875] [DEBUG] default - 模块liuyanban处理用时: 27 毫秒!
+[2019-12-10T00:24:36.875] [INFO] default - 开始处理模块: copyright
+[2019-12-10T00:24:36.876] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Online-mass-work-conference\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
+[2019-12-10T00:24:36.883] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
+[2019-12-10T00:24:36.883] [DEBUG] default - 模块copyright处理用时: 8 毫秒!
+[2019-12-10T00:24:36.884] [INFO] default - 开始处理模块: floatMenu
+[2019-12-10T00:24:36.892] [DEBUG] default - 缓存模板: floatMenu./src/moudle/floatMenu.owo
+[2019-12-10T00:24:36.894] [DEBUG] default - 模块floatMenu处理用时: 10 毫秒!
+[2019-12-10T00:24:36.900] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-10T00:24:36.913] [DEBUG] default - 页面home处理用时: 1102 毫秒!
+[2019-12-10T00:24:36.914] [INFO] default - 文件夹不存在: C:/Users/my/Documents/GitHub/Online-mass-work-conference/dist/static/resource
+[2019-12-10T00:24:36.915] [INFO] default - 创建文件夹: C:/Users/my/Documents/GitHub/Online-mass-work-conference/dist/static/resource
+[2019-12-10T00:24:36.916] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/box-bg.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/card.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/next.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/left.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/floatBar.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/li-icon.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/phone-bg.jpg' ]
+[2019-12-10T00:24:36.917] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/Online-mass-work-conference/dist/static/resource
+[2019-12-10T00:24:36.919] [DEBUG] default - css中的资源处理完毕!
+[2019-12-10T00:24:37.593] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-10T00:24:37.684] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\css
+[2019-12-10T00:24:37.685] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\css
+[2019-12-10T00:24:37.685] [INFO] default - 开始处理附属css中的资源
+[2019-12-10T00:24:37.685] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-10T00:24:37.685] [INFO] default - 处理字体: {}
+[2019-12-10T00:24:37.694] [INFO] default - 使用postcss处理完毕! 用时: 101 毫秒
+[2019-12-10T00:24:37.694] [INFO] default - 判断css中的外链情况!
+[2019-12-10T00:24:37.695] [DEBUG] default - 发现外链列表: http://www.people.com.cn/img/2016people/images/focus_left_b.png,http://www.people.com.cn/img/2016people/images/focus_right_b.png,"../resource/box-bg.png","../resource/card.png",'../resource/next.png','../resource/left.png','../resource/floatBar.png',"../resource/li-icon.png","../resource/phone-bg.jpg"
+[2019-12-10T00:24:37.695] [INFO] default - 正在处理script!
+[2019-12-10T00:24:38.469] [INFO] default - 工程中只有一个页面!
+[2019-12-10T00:24:38.470] [INFO] default - js中的资源处理完毕!
+[2019-12-10T00:24:38.470] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"v","src":"./src/resource/v.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"roundabout","src":"http://leaders.people.com.cn/img/MAIN/2019/09/119625/js/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-10T00:24:38.471] [DEBUG] default - 外部脚本数量: 7
+[2019-12-10T00:24:38.471] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-12-10T00:24:38.471] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-12-10T00:24:38.471] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-12-10T00:24:38.471] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-12-10T00:24:38.471] [DEBUG] default - 处理脚本: v
+[2019-12-10T00:24:38.471] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\src\resource\v.js
+[2019-12-10T00:24:38.471] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-12-10T00:24:38.471] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-12-10T00:24:38.471] [DEBUG] default - 处理脚本: roundabout
+[2019-12-10T00:24:38.471] [DEBUG] default - 网络脚本: roundabout
+[2019-12-10T00:24:38.471] [DEBUG] default - 处理脚本: jquery.easing.1.3
+[2019-12-10T00:24:38.471] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\src\resource\jquery.easing.1.3.js
+[2019-12-10T00:24:38.471] [DEBUG] default - 处理脚本: main
+[2019-12-10T00:24:38.471] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\src\main.js
+[2019-12-10T00:24:38.471] [DEBUG] default - 输出scriptData
+[2019-12-10T00:24:38.491] [DEBUG] default - 准备输出html!
+[2019-12-10T00:24:38.494] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/circular.png
+[2019-12-10T00:24:38.494] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/one-1.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/one-2.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/one-3.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/one-4.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/one-0.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/circular.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/slide.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/bg.jpg',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/show.jpg',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/play.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/title-zdtj.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/title-hyrc.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/title-hyxc.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/title-gfzkztyj.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/title-pxlt.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/title-wjhg.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/title-mxdw.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/logo-box.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/liuyanban.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/qr-1.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/qr-2.png',
+  'C:/Users/my/Documents/GitHub/Online-mass-work-conference/src/resource/qr-3.png' ]
+[2019-12-10T00:24:38.494] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/Online-mass-work-conference/dist/static/resource
+[2019-12-10T00:24:38.495] [DEBUG] default - 开始美化html
+[2019-12-10T00:24:38.537] [INFO] default - 判断html中的外链情况!
+[2019-12-10T00:24:38.537] [DEBUG] default - 发现外链列表: ./static/css/owo.main.mmbt5wolky.css,./static/css/main.css,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css,http://www.people.com.cn/,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,http://leaders.people.com.cn/n1/2019/0903/c178291-31334400.html,http://www.people.com.cn,http://leaders.people.com.cn/GB/178291/218130/414212/index.html,http://leaders.people.com.cn/n1/2017/0103/c409148-28995855.html,#,#,#,#,#,#,#hyrc,#hyxc,#gfzkztyj,#pxlt,#wjhg,#mxdw,#ddgx,#top,./static/resource/one-1.png,./static/resource/one-2.png,./static/resource/one-3.png,./static/resource/one-4.png,./static/resource/one-0.png,./static/resource/circular.png,./static/resource/slide.png,http://www.people.com.cn/img/2016people/images/rmw_logo.png,./static/resource/bg.jpg,./static/resource/show.jpg,./static/resource/play.png,http://www.people.com.cn/NMediaFile/2019/0620/MAIN201906202025094971392065777.jpg,http://www.people.com.cn/NMediaFile/2019/0619/MAIN201906191838270226271022901.jpg,http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg,http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg,http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg,http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg,http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg,http://www.people.com.cn/NMediaFile/2019/1205/MAIN201912050912131261765615425.jpg,./static/resource/title-zdtj.png,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226094178045418500.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051226495342432296147.jpg,./static/resource/title-hyrc.png,./static/resource/title-hyxc.png,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051215075366696602642.jpg,./static/resource/title-gfzkztyj.png,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051528557919099670289.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051007149596953657814.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051528557919099670289.jpg,./static/resource/title-pxlt.png,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051528557919099670289.jpg,http://leaders.people.com.cn/NMediaFile/2019/0905/MAIN201909051007149596953657814.jpg,./static/resource/title-wjhg.png,http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg,http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg,http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg,http://www.people.com.cn/NMediaFile/2019/0614/MAIN201906140918347048629850438.jpg,./static/resource/title-mxdw.png,./static/resource/logo-box.png,./static/resource/liuyanban.png,./static/resource/qr-1.png,./static/resource/qr-2.png,./static/resource/qr-3.png,./static/resource/circular.png,http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js,./static/js/v.js,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js,http://leaders.people.com.cn/img/MAIN/2019/09/119625/js/roundabout.js,./static/js/jquery.easing.1.3.js,./static/js/main.js,./static/js/owo.main.mmbt5wolky.js
+[2019-12-10T00:24:38.539] [INFO] default - 显示外链情况!
+[2019-12-10T00:24:38.541] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\js
+[2019-12-10T00:24:38.541] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\js
+[2019-12-10T00:24:38.541] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-10T00:24:38.542] [INFO] default - 编译结束!
+[2019-12-10T00:24:38.560] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\css\owo.main.mmbt5wolky.css
+[2019-12-10T00:24:38.562] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Online-mass-work-conference\src\main.css
+[2019-12-10T00:24:38.562] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Online-mass-work-conference\src\main.js
+[2019-12-10T00:24:38.562] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-10T00:24:38.563] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Online-mass-work-conference\src\resource\v.js
+[2019-12-10T00:24:38.563] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Online-mass-work-conference\src\resource\jquery.easing.1.3.js
+[2019-12-10T00:24:38.683] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\css\main.css
+[2019-12-10T00:24:38.683] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\js\main.js
+[2019-12-10T00:24:38.743] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\js\v.js
+[2019-12-10T00:24:38.743] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Online-mass-work-conference\dist\static\js\jquery.easing.1.3.js

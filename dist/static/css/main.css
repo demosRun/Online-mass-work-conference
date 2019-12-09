@@ -63,9 +63,13 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .float-circular {
   position: absolute;
-  top: -305px;
-  left: -1000px;
+  top: -165px;
+  left: -747px;
   z-index: -1;
+  width: 1400px;
+  opacity: 0.8;
+  pointer-events: none;
+  user-select: none;
 }
 
 .xuanzhun {
