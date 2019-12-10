@@ -488,7 +488,8 @@ li {
   font-size: 14px;
   padding: 5px 0;
   height: 44px;
-  line-height: 22px;
+  line-height: 23px;
+  overflow: hidden;
 }
 
 .card-more ul {
@@ -895,6 +896,8 @@ li {
   font-weight: bold;
   font-size: 18px;
   line-height: 32px;
+  overflow: hidden;
+  height: 32px;
   background-position: center left;
 }
 

@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .phone .float-qr-code,
 .phone .next,
 .phone .news-box,
-.card-more .more,
+.phone .card-more .more,
 .phone .num1 {
   display: none;
 }
@@ -383,4 +383,13 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   display: block;
   position: absolute;
   opacity: 0.6;
+}
+
+.phone-start p {
+  position: absolute;
+  bottom: 270px;
+  color: white;
+  font-size: 22px;
+  right: 35px;
+  display: block;
 }
