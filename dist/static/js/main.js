@@ -67,7 +67,7 @@ $(function () {
     $('.close-button').click(function () {
       $('.video-box')[0].style.display = 'none';
     });
-  } catch {}
+  } catch (e) {}
 
 
   // 3D轮播图
@@ -80,7 +80,7 @@ $(function () {
       minZ: 20,
       minScale: 0.6
     });
-  } catch {}
+  } catch (e) {}
 
 
 
@@ -94,9 +94,9 @@ $(function () {
         var scale = window.innerWidth / deviseW
         scaleBox.style.width = deviseW + 'px'
         scaleBox.style.height = deviseH + 'px'
-        scaleBox.style.transform = `scale(${scale}, ${scale})`
+        scaleBox.style.transform = 'scale(' + scale +', ' + scale +')'
         // console.log(window.innerHeight, deviseH * scale)
-        scaleBox.style.transformOrigin = `0 ${(window.innerHeight - deviseH * scale) + 'px' } 0`
+        scaleBox.style.transformOrigin = "0 " + (window.innerHeight - deviseH * scale) + 'px' + " 0"
 
         document.body.classList.add('phone')
         // 手机进场动画
@@ -105,7 +105,7 @@ $(function () {
         owoAnimate('bounceInRight', document.getElementsByClassName('so-3')[0], 1600)
         owoAnimate('fadeIn', document.getElementsByClassName('so-4')[0], 2800)
         owoAnimate('fadeInUp', document.getElementsByClassName('so-0')[0], 3600)
-        setTimeout(() => {
+        setTimeout(function () {
           new Swiper('.phone-swiper-container', {
             mode: 'horizontal',
             // preventLinks : false,
@@ -118,7 +118,7 @@ $(function () {
     } else {
       document.body.classList.add('pc')
     }
-  } catch {}
+  } catch (e) {}
   
   try {
     var swiperBox = null
@@ -148,7 +148,7 @@ $(function () {
       } else {
         $('.swiper-box .swiper-container-box-pagination')[0].style.display = 'block'
       }
-      setTimeout(() => {
+      setTimeout(function () {
         swiperBox = new Swiper('.swiper-container-box', {
           mode: 'horizontal',
           autoplay: 5000,
@@ -156,14 +156,14 @@ $(function () {
           autoplayDisableOnInteraction: false,
           loop: true
         })
-        $('.swiper-box .right-bar')[0].style.display = 'block '
+        $('.swiper-box .right-bar')[0].style.display = 'block'
       }, 0)
     }
     activeIndex($('.swiper-box .left-bar li')[0])
     $('.swiper-box .left-bar li').click(function () {
       activeIndex(this)
     })
-  } catch {}
+  } catch (e) {}
   
   try {
     // 更多按钮点击事件
@@ -177,7 +177,7 @@ $(function () {
         this.innerHTML = '点击隐藏更多△'
       }
     })
-  } catch {}
+  } catch (e) {}
   
   try {
     // 鼠标悬浮组件
@@ -185,7 +185,7 @@ $(function () {
     $('.hover-switch ul li').hover(function () {
       $('.hover-switch .left')[0].innerHTML = this.getElementsByClassName('image-box')[0].innerHTML
     })
-  } catch {}
+  } catch (e) {}
   
   try {
     // 鼠标悬浮组件2
@@ -193,7 +193,7 @@ $(function () {
     $('.hover-switch-2 ul li').hover(function () {
       $('.hover-switch-2 .left')[0].innerHTML = this.getElementsByClassName('image-box')[0].innerHTML
     })
-  } catch {}
+  } catch (e) {}
   
 
 
