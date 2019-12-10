@@ -86,40 +86,35 @@ $(function () {
 
   try {
     var scale = document.documentElement.clientWidth / document.documentElement.clientHeight
-    const scaleBox = document.getElementsByClassName('scale-box')[0]
+    var scaleBoxList = document.getElementsByClassName('scale-box')
     if ((scale) < 1) {
-      // 手机屏幕适配
-      var scale = window.innerWidth / deviseW
-      scaleBox.style.width = deviseW + 'px'
-      scaleBox.style.height = deviseH + 'px'
-      scaleBox.style.transform = `scale(${scale}, ${scale})`
-      // console.log(window.innerHeight, deviseH * scale)
-      scaleBox.style.transformOrigin = `0 ${(window.innerHeight - deviseH * scale) + 'px' } 0`
+      for (var ind = 0; ind < scaleBoxList.length; ind++) {
+        var scaleBox = scaleBoxList[ind]
+        // 手机屏幕适配
+        var scale = window.innerWidth / deviseW
+        scaleBox.style.width = deviseW + 'px'
+        scaleBox.style.height = deviseH + 'px'
+        scaleBox.style.transform = `scale(${scale}, ${scale})`
+        // console.log(window.innerHeight, deviseH * scale)
+        scaleBox.style.transformOrigin = `0 ${(window.innerHeight - deviseH * scale) + 'px' } 0`
 
-      document.body.classList.add('phone')
-      // 手机进场动画
-      owoAnimate('bounceInDown', document.getElementsByClassName('so-1')[0])
-      owoAnimate('bounceInLeft', document.getElementsByClassName('so-2')[0], 800)
-      owoAnimate('bounceInRight', document.getElementsByClassName('so-3')[0], 1600)
-      owoAnimate('fadeIn', document.getElementsByClassName('so-4')[0], 2800)
-      owoAnimate('fadeInUp', document.getElementsByClassName('so-0')[0], 3600)
-      setTimeout(() => {
-        new Swiper('.phone-swiper-container', {
-          mode: 'horizontal',
-          // preventLinks : false,
-          slideClass : 'phone-swiper-slide',
-          wrapperClass : 'phone-swiper-wrapper'
-        })
-      }, 0)
-      // setTimeout(() => {
-      //   // window.scrollTo(0, 0)
-      //   const phoneHome = document.getElementsByClassName('phone-start')[0]
-      //   document.getElementsByClassName('float-circular')[0].style.display = 'none'
-      //   // phoneHome.style.top = '-100vh'
-      //   // setTimeout(() => {
-      //   //   phoneHome.innerHTML = ''
-      //   // }, 1000)
-      // }, 6000)
+        document.body.classList.add('phone')
+        // 手机进场动画
+        owoAnimate('bounceInDown', document.getElementsByClassName('so-1')[0])
+        owoAnimate('bounceInLeft', document.getElementsByClassName('so-2')[0], 800)
+        owoAnimate('bounceInRight', document.getElementsByClassName('so-3')[0], 1600)
+        owoAnimate('fadeIn', document.getElementsByClassName('so-4')[0], 2800)
+        owoAnimate('fadeInUp', document.getElementsByClassName('so-0')[0], 3600)
+        setTimeout(() => {
+          new Swiper('.phone-swiper-container', {
+            mode: 'horizontal',
+            // preventLinks : false,
+            slideClass : 'phone-swiper-slide',
+            wrapperClass : 'phone-swiper-wrapper'
+          })
+        }, 0)
+      }
+
     } else {
       document.body.classList.add('pc')
     }

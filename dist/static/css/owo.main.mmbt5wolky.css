@@ -937,7 +937,7 @@ li {
   cursor: pointer;
 }
 
-.phone-start {
+.phone-start, .phone-end {
   display: none;
   background-image: url("../resource/phone-bg.jpg");
 }
